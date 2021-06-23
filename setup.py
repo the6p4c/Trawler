@@ -18,6 +18,11 @@ setup(
 		'lxml'
 	],
 	packages = find_packages(),
+	entry_points = {
+		'console_scripts': [
+			'trawler = trawler:main'
+		}
+	},
 	project_urls = {
 		'Source Code': 'https://github.com/bad-alloc-heavy-industries/Trawler',
 		'Bug Tracker': 'https://github.com/bad-alloc-heavy-industries/Trawler/issues'
